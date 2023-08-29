@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação - Série D</title>
+    <link rel="shortcut icon" href="./src/images/Icon.png" type="image/x-icon">
+    <style>
+        body{
+            color: blanchedalmond;
+            background-color: rgb(11, 11, 65);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid rgb(7, 75, 16);
+        }
+        th, td {
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+        }
+        figure{
+            max-height: 30px;
+            margin: 0;
+        }
+        tr{
+            background-color: black;
+        }
+        td:hover{
+            background: linear-gradient(45deg, #072e33, #0c7076);;
+        }
+        .cabecalho-table {
+            background: linear-gradient(45deg, #92706d, #3b162a);
+            text-align: center;
+        }
+        .cabecalho-clube{
+            text-align: left;
+        }
+        .clube{
+            width: 400px;
+            text-align: left;
+        }
+        .bandeira-clube{
+            width: 30px;
+            height: 30px;
+            margin: 0px 10px 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Brasileirão - Série D</h2>
+        <time datetime="2023-08-29"><span>Temporada - </span> 2023</time>
+    </header>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="cabecalho-table cabecalho-clube">Clube</th>
+                        <th class="cabecalho-table">Pts</th>
+                        <th class="cabecalho-table">PJ</th>
+                        <th class="cabecalho-table">VIT</th>
+                        <th class="cabecalho-table">E</th>
+                        <th class="cabecalho-table">DER</th>
+                        <th class="cabecalho-table">GM</th>
+                        <th class="cabecalho-table">GC</th>
+                        <th class="cabecalho-table">SG</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">1</span>
+                                <img class="bandeira-clube" src="./src/images/NacionalPatos.png" alt="NacionalPatos">
+                                <span class="nome-clube">Nacional Patos</span>
+                            </figure>
+                        </td>
+                        <td>30</td>
+                        <td>14</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>22</td>
+                        <td>7</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">2</span>
+                                <img class="bandeira-clube" src="./src/images/Tuna.png" alt="Tuna">
+                                <span class="nome-clube">Tuna</span>
+                            </figure>
+                        </td>
+                        <td>28</td>
+                        <td>14</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>21</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">3</span>
+                                <img class="bandeira-clube" src="./src/images/Aguia-do-Marabá.png" alt="Águia do Marabá">
+                                <span class="nome-clube">Águia do Marabá</span>
+                            </figure>
+                        </td>
+                        <td>24</td>
+                        <td>14</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>2</td>
+                        <td>18</td>
+                        <td>8</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">4</span>
+                                <img class="bandeira-clube" src="./src/images/Princesa.png" alt="Princesa">
+                                <span class="nome-clube">Princesa</span>
+                            </figure>
+                        </td>
+                        <td>19</td>
+                        <td>14</td>
+                        <td>4</td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td>21</td>
+                        <td>13</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">5</span>
+                                <img class="bandeira-clube" src="./src/images/Sao-Raimundo.png" alt="São Raimundo">
+                                <span class="nome-clube">São Raimundo</span>
+                            </figure>
+                        </td>
+                        <td>18</td>
+                        <td>14</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>24</td>
+                        <td>24</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">6</span>
+                                <img class="bandeira-clube" src="./src/images/Humaitá.png" alt="Humaitá">
+                                <span class="nome-clube">Humaitá</span>
+                            </figure>
+                        </td>
+                        <td>18</td>
+                        <td>14</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>16</td>
+                        <td>21</td>
+                        <td>-5</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">7</span>
+                                <img class="bandeira-clube" src="./src/images/Sao-Francisco.png" alt="São Francisco">
+                                <span class="nome-clube">São Francisco</span>
+                            </figure>
+                        </td>
+                        <td>9</td>
+                        <td>14</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>11</td>
+                        <td>5</td>
+                        <td>33</td>
+                        <td>-28</td>
+                    </tr>
+                    <tr>
+                        <td class="clube">
+                            <figure>
+                                <span class="classificacao">8</span>
+                                <img class="bandeira-clube" src="./src/images/Trem.png" alt="Trem">
+                                <span class="nome-clube">Trem</span>
+                            </figure>
+                        </td>
+                        <td>8</td>
+                        <td>14</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>8</td>
+                        <td>19</td>
+                        <td>-11</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
